@@ -29,6 +29,7 @@ body {
     margin-left: 3vw;
     display: inline-flex;
     min-width: 7rem;
+    max-width: 7rem;
 }
 
 .logoimg {
@@ -42,7 +43,7 @@ body {
     font-size: 26px;
     display: inline-flex;
     margin-top: 4.9rem;
-    padding-left: 65rem;
+    padding-left: 55vw;
 }
 
 nav ul {
@@ -124,13 +125,13 @@ footer {
 
   .section_title {
     width: 64rem;
-    margin: 0 0 0 26rem;
+    margin: 0 0 0 22vw;
     text-align: center;
     font-size: 20px;
   }
 
   .product_table {
-    margin: 0 0 0 5rem;
+    margin: 0 0 0 6vw;
   }
 
   .product_row {
@@ -146,7 +147,7 @@ footer {
   .productimg img{
     max-width: 100%;
     max-height: 100%;
-    margin: 0 0 2rem 0;
+    margin: 0 0 3vh 0;
   }
 
   .productname {
@@ -161,7 +162,7 @@ footer {
 
   .profile_table {
     width: 40rem;
-    margin: 0 0 1rem 38.3rem;
+    margin: 0 0 1rem 34vw;
   }
 
   .profile_row {
@@ -185,7 +186,7 @@ footer {
 
   .MV_table {
     width: 64rem;
-    margin: 0 0 0 26rem;
+    margin: 0 0 0 22vw;
   }
 
   .MV_row {
@@ -208,3 +209,6 @@ footer {
     font-size: 16px;
     text-align: justify;
   }
+
+  @media (max-width: 1000px) {
+}
